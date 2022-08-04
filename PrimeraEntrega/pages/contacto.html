@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="icon" href="../images/favicon.png" />
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Logo para volver al inicio -->
+        <div>
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="logo-empresa-volver-inicio">
+            </a>
+        </div>
+        <!-- Barra de navegacion -->
+        <nav>
+            <ul>
+                <li> <a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/aboutus.html">Acerca de nosotros</a></li>
+                <li><a href="../pages/elaboracion.html">Elaboracion de productos</a></li>
+                <li><a href="../pages/clientes.html">Clientes</a></li>
+                <li><a href="#contacto">Contacto</a></li>POr 
+            </ul>
+        </nav>
+    </header>
+    <br>
+
+    <!-- Seccion de formulario de contacto -->
+    <form action="#contacto" method="get" enctype="multipart/form-data">
+
+
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <br>
+            <div>
+                <label for="nombre-apellido"><b>Nombre y Apellido</b></label>
+                <br>
+                <input type="text" id="nombre-apellido" name="nombre-apellido"
+                    placeholder="Ingresa tu nombre y apellido" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellido"><b>Correo Electronico</b></label>
+                <br>
+                <input type="email" id="correo-electronico" name="correo-electronico"
+                    placeholder="Ingresa tu correo electronico" required>
+            </div>
+            <br>
+            <div>
+                <label for="consulta"><b>Escribe tu consulta aqui</b></label>
+                <br>
+                <textarea placeholder="Escribe tu consulta aqui.." name="consulta" id="consulta" cols="30" rows="10"
+                    required></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+    <br><br><br><br><br><b><br><br><br><br><br><br
+    <footer>
+        <div>
+            <p>Te ofrecemos una gran variedad de jabones con los que podrás mantener tu piel sana, realizar regalos
+                inolvidables y disfrutar de un estilo de vida equilibrado.
+            </p>
+            <p>
+                Sandra Jabones
+                <br>
+                Joanico 3136
+                <br>
+                Montevideo - Uruguay
+                <br>
+                Tel. 2407 2060
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
